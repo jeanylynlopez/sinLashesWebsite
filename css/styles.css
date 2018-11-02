@@ -1,0 +1,169 @@
+/* TYPOGRAPHY */
+
+h2 {
+    font-size: 1.6rem;
+}
+
+/* COMMON STUFF */
+
+img {
+    width: 100%;
+    margin: 0;
+}
+
+.sectionTitle {
+    text-align: center;
+}
+
+/* NAV BAR */
+
+
+.navbar-brand {
+    width: 75px;
+    /* height: ; */
+}
+
+/* ???CHANGE THIS COLOUR IF YOU WANT ???*/
+
+.btn-primary {
+    background-color: #b32960;
+    border-color: #b32960;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+
+}
+
+/* HEADER */
+
+.jumbotron {
+    margin-top: 50px;
+    background: linear-gradient(to bottom,#ffff 0, whitesmoke 7%, transparent), url("./../assets/headerBG.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron img {
+    width: 65%;
+}
+
+
+.jumbotron h2 {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+/* SERVICES */
+
+.carousel-item {
+    margin: 25px auto;
+    text-align: center;
+    height: 75vh;
+    /* border: 1px solid black; */
+    /* width: 50%; */
+}
+
+.carousel-item img {
+    width: 15%;
+}
+
+.serviceDescription {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.carousel-item a {
+    margin: 25px auto;
+}
+
+.carousel-control-next-icon {
+    background-image : url("./../assets/angle-right-solid.svg");
+    width: 100px;
+    /* fill: green; */
+    /* fill: black; */
+    /* fill: #b32960; */
+}
+
+.carousel-control-prev-icon {
+    background-image : url("./../assets/angle-left-solid.svg");
+    width: 100px;
+    /* fill: green; */
+    /* fill: black; */
+    /* fill: #b32960; */
+}
+
+/* GALLERY */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.galleryPicContent {
+    position: relative;
+}
+
+.galleryHover h2, .galleryHover p {
+    display: none;
+}
+
+.galleryPicContent:hover .galleryHover h2 {
+    color: rgb(230, 226, 226);
+    padding: 20%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.3));
+}
+
+.galleryPicContent:hover .galleryHover p {
+    color: rgb(230, 226, 226);
+    margin: 0 auto;
+    /* padding: 15%; */
+    width: 75%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* AFTERCARE */
+
+/* ABOUT */
+
+.aboutSection {
+    height: 75vh;
+}
+
+.aboutImage {
+    /* display: block; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    border-radius: 3px;
+    /* vertical-align: middle; */
+    /* width: 75%; */
+    
+}
+
+.aboutContent {
+    /* vertical-align: middle; */
+
+    /* padding: 3% 15%; */
+    /* width: 75%;
+    display: block;
+    margin: 0 auto; */
+
+}
