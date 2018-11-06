@@ -7,7 +7,7 @@ const app = {}
 app.bootstrap = function(){
     // CAROUSEL
     $('.carousel').carousel({
-        interval: 1000,
+        interval: 10000,
         keyboard: true, 
     })
 
